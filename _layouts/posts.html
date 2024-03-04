@@ -1,0 +1,12 @@
+---
+layout: post
+---
+
+
+{% for p in site.posts %}
+    <h3>{{ p.title }}</h3>
+    {{ p.date | date: "%B %d, %Y"}}
+    {{ p.content }}
+    <hr/>
+{% endfor %}
+

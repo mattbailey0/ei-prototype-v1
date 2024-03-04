@@ -1,0 +1,95 @@
+---
+layout: post
+---
+
+Practitioners, companies, and civil society have expressed their support for the thing.
+
+
+
+
+<h2>Practitioners</h2>
+
+<ul class="usa-card-group">
+{% for s in site.data.support.practitioners %}    
+  <li class="usa-card usa-card--flag flex-1">
+    <div class="usa-card__container">
+      <div class="usa-card__header">
+        <h2 class="usa-card__heading">{{ s.name }}</h2>
+      </div>
+      <div class="usa-card__media">
+        <div class="usa-card__img">
+          <img
+            src="{{ s.img }}"
+            alt="{{ s.img-alt }}"
+          />
+        </div>
+      </div>
+      <div class="usa-card__body">
+        <p>{{s.text}}</p>
+      </div>
+      <div class="usa-card__footer">
+        <a href="{{ s.href }}" class="usa-button">Learn more</a>
+      </div>
+    </div>
+  </li>
+{% endfor %}  
+</ul>
+
+
+<h2>Companies</h2>
+
+<ul class="usa-card-group">
+{% for s in site.data.support.companies %}    
+  <li class="usa-card usa-card--flag flex-1">
+    <div class="usa-card__container">
+      <div class="usa-card__header">
+        <h2 class="usa-card__heading">{{ s.name }}</h2>
+      </div>
+      <div class="usa-card__media">
+        <div class="usa-card__img">
+          <img
+            src="{{ s.img }}"
+            alt="{{ s.img-alt }}"
+          />
+        </div>
+      </div>
+      <div class="usa-card__body">
+        <p>{{s.text}}</p>
+      </div>
+      <div class="usa-card__footer">
+        <a href="{{ s.href }}" class="usa-button">Learn more</a>
+      </div>
+    </div>
+  </li>
+
+{% endfor %}  
+</ul>
+
+
+<h2>Civil Society</h2>
+
+<ul class="usa-card-group">
+{% for s in site.data.support.civilsociety %}    
+  <li class="usa-card usa-card--flag flex-1">
+    <div class="usa-card__container">
+      <div class="usa-card__header">
+        <h2 class="usa-card__heading">{{ s.name }}</h2>
+      </div>
+      <div class="usa-card__media">
+        <div class="usa-card__img">
+          <img
+            src="{{ s.img }}"
+            alt="{{ s.img-alt }}"
+          />
+        </div>
+      </div>
+      <div class="usa-card__body">
+        <p>{{s.text}}</p>
+      </div>
+      <div class="usa-card__footer">
+        <a href="{{ s.href }}" class="usa-button">Learn more</a>
+      </div>
+    </div>
+  </li>
+{% endfor %}  
+</ul>

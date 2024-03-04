@@ -1,0 +1,76 @@
+practitioners:
+ - name: Jane Q. Expert
+   href: /
+   text: "asldf af asdf a flkja f afjfa;ljaf "
+   img: /assets/img/face-1.png
+   img-alt: "placeholder alt text"
+ - name: John R. Expert
+   href: /
+   text: "asldf af asdf a flkja f afjfa;ljaf "
+   img: /assets/img/face-2.png
+   img-alt: "placeholder alt text"
+ - name: An Independent Organization
+   href: /
+   text: "asldf af asdf a flkja f afjfa;ljaf "
+   img: /assets/img/face-3.png
+   img-alt: "placeholder alt text"
+
+
+companies:
+ - name: PishPosh
+   href: /
+   text: "asldf af asdf a flkja f afjfa;ljaf "
+   img: /assets/img/tech-logo-1.png
+   img-alt: "tech logo"
+ - name: Snaffletrong 
+   href: /
+   text: "asldf af asdf a flkja f afjfa;ljaf "
+   img: /assets/img/tech-logo-2.png
+   img-alt: "tech logo"
+ - name: FlarckDB
+   href: /
+   text: "asldf af asdf a flkja f afjfa;ljaf "
+   img: /assets/img/tech-logo-3.png
+   img-alt: "tech logo"
+ - name: ConchCrunch
+   href: /
+   text: "asldf af asdf a flkja f afjfa;ljaf "
+   img: /assets/img/tech-logo-4.png
+   img-alt: "tech logo"
+ - name: TheRealGrouse
+   href: /
+   text: "asldf af asdf a flkja f afjfa;ljaf "
+   img: /assets/img/tech-logo-5.png
+   img-alt: "tech logo"
+ - name: SnapCracklePup
+   href: /
+   text: "asldf af asdf a flkja f afjfa;ljaf "
+   img: /assets/img/tech-logo-6.png
+   img-alt: "tech logo"
+
+civilsociety:
+ - name: BRBC
+   href: /
+   text: "asldf af asdf a flkja f afjfa;ljaf "
+   img: /assets/img/cso-logo-1.png
+   img-alt: "placeholder alt text"
+ - name: IIRC
+   href: /
+   text: "asldf af asdf a flkja f afjfa;ljaf "
+   img: /assets/img/cso-logo-2.png
+   img-alt: "placeholder alt text"
+ - name: LULZ-UNND
+   href: /
+   text: "asldf af asdf a flkja f afjfa;ljaf "
+   img: /assets/img/cso-logo-3.png
+   img-alt: "placeholder alt text"
+ - name: The Warezcrunch Family Fund
+   href: /
+   text: "asldf af asdf a flkja f afjfa;ljaf "
+   img: /assets/img/cso-logo-4.png
+   img-alt: "placeholder alt text"
+ - name: FRFR International
+   href: /
+   text: "asldf af asdf a flkja f afjfa;ljaf "
+   img: /assets/img/cso-logo-2.png
+   img-alt: "placeholder alt text"
