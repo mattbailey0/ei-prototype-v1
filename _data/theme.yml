@@ -18,7 +18,7 @@ colors:
     link-color: 'base-lightest'
     link-hover-color: 'white'
   hero:
-    hero-bg: 'primary-darker'
+    hero-bg: 'primary-dark'
     hero-header: 'accent-cool'
     hero-header-alt: 'white'
     hero-text: 'white'
@@ -27,7 +27,7 @@ colors:
     hero-button-text: 'white'
   top-navigation:
     top-nav-bg: 'white'
-    top-nav-link: 'base-dark'
+    top-nav-link: 'ink'
     top-nav-link-hover: 'primary'
     top-nav-link-hover-bg: 'white'
     top-nav-link-current: 'base-dark'

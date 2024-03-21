@@ -1,0 +1,50 @@
+
+.usa-header .usa-logo {
+    background: #162e51;
+    padding: 0.5rem;  
+    a {
+        color: white;
+    }
+}
+.no-hero header {
+    padding-bottom: 20px;
+    background-image: url('/assets/img/background-slice-1.jpg');
+    background-position-y:bottom;
+    background-size: 100% 5px;
+    background-repeat: no-repeat;
+}
+
+.usa-hero__callout {
+    max-width: 40rem;
+}
+
+.usa-prose .usa-card {
+    min-width: 100%;
+}
+
+
+.usa-prose > p {
+    max-width: 100%;
+}
+
+
+
+.usa-content p, .usa-content ul:not(.usa-accordion):not(.usa-accordion--bordered), .usa-content ol:not(.usa-accordion):not(.usa-accordion--bordered) {
+    max-width: 100%;
+}
+
+.usa-card__container {
+    border-radius: 0;
+}
+
+
+.usa-card--flag .usa-card__img {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: white;    
+    img {
+        height: auto;
+    }
+}

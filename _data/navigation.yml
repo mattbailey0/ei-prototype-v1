@@ -12,13 +12,56 @@
 #   links: primary
 #
 primary:
-  - text: About
+  - text: Home
     href: /
   - text: The Guidelines
-    href: /guidelines/
+    href: /election-integrity-guidelines-for-tech-companies/
   - text: Updates
     href: /updates/
-  - text: Support
-    href: /support/
+  - text: Endorsement and Support
+    href: /supporters/
   - text: Get Involved
     href: /get-involved/
+
+# Uncomment the 'links' sections below to use footer link columns
+# with the 'big' footer style.
+footer:
+  - text: Documentation
+    href: /
+    links:
+      - text: Overview
+        href: /
+      - text: Secondary documentation page
+        href: /
+      - text: Tertiary docs
+        href: /
+  - text: Navigation section
+    href: /
+    links:
+      - text: Demo link A
+        href: /
+      - text: Demo link B
+        href: /
+      - text: Demo link C
+        href: /
+  - text: External links
+    href: /
+    links:
+      - text: 18F
+        href: https://18f.gsa.gov
+        external: true
+      - text: Technology Transformation Service
+        href: https://join.tts.gsa.gov/
+        external: true
+      - text: code.gov
+        href: https://code.gov/
+        external: true
+  - text: Privacy policy
+    href: /
+    links:
+      - text: Demo link A
+        href: /three/a/
+      - text: Demo link B
+        href: /three/b/
+      - text: Demo link C
+        href: /three/c/

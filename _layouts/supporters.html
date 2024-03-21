@@ -1,0 +1,145 @@
+---
+layout: page
+---
+
+A broad and growing array of respected election practitioners, civil society organizations, and technology companies are expressing their support for the Election Integrity Guidelines for Technology Companies. Here are a few.
+
+<h2 id="election-practitioners">Election Practitioners</h2>
+<h3>Formal Endorsements</h3>
+  <ul class="usa-card-group">
+    {% for s in site.data.support.election-practitioners %}    
+      {% if s.endorsement == "yes" %}
+        <li class="usa-card usa-card--flag usa-card--media-left flex-1 flex-supporters">
+          <div class="usa-card__container">
+            <div class="usa-card__header">
+              <h2 class="usa-card__heading">{{ s.name }}</h2>
+              {% if s.org %}{{s.org}}{% endif %}
+            </div>
+            {% if s.img %}
+              <div class="usa-card__media usa-card__media--inset">
+                <div class="usa-card__img">
+                  <img
+                    src="/assets/img/headshots-logos/{{ s.img }}"
+                    alt="{{ s.name }}"
+                  />
+                </div>
+              </div>
+            {% endif %}
+            {% if s.text %}
+              <div class="usa-card__body">
+                <p style="font-style:italic;">"{{s.text}}"</p>
+              </div>
+            {% endif %}
+            <div class="usa-card__footer">
+              {% if s.href %}    
+                <a href="{{ s.href }}" class="usa-button">Learn more</a>
+              {% endif %}
+            </div>  
+          </div>
+        </li> 
+      {% endif %}
+    {% endfor %}  
+    </ul>
+  
+<h3>Expressions of support</h3>
+<ul class="usa-card-group">
+{% for s in site.data.support.election-practitioners %}    
+  {% if s.endorsement != "yes" %}
+    <li class="usa-card usa-card--flag usa-card--media-left flex-1 flex-supporters">
+      <div class="usa-card__container">
+        <div class="usa-card__header">
+          <h2 class="usa-card__heading">{{ s.name }}</h2>
+          {% if s.org %}{{s.org}}{% endif %}
+        </div>
+        {% if s.img %}
+          <div class="usa-card__media usa-card__media--inset">
+            <div class="usa-card__img">
+              <img
+                src="/assets/img/headshots-logos/{{ s.img }}"
+                alt="{{ s.name }}"
+              />
+            </div>
+          </div>
+        {% endif %}
+        <div class="usa-card__body">
+          <p style="font-style:italic;">"{{s.text}}"</p>
+        </div>
+        <div class="usa-card__footer">
+          {% if s.href %}    
+            <a href="{{ s.href }}" class="usa-button">Learn more</a>
+          {% endif %}
+        </div>  
+      </div>
+    </li> 
+  {% endif %}
+{% endfor %}  
+</ul>
+
+<h2 id="civil-society">Civil Society</h2>
+<br/>
+<ul class="usa-card-group">
+{% for s in site.data.support.civil-society %}    
+  <li class="usa-card usa-card--flag usa-card--media-left flex-1 flex-supporters">
+    <div class="usa-card__container">
+      <div class="usa-card__header">
+        <h2 class="usa-card__heading">{{ s.name }}</h2>
+        {% if s.org %}{{s.org}}{% endif %}
+      </div>
+      {% if s.img %}
+        <div class="usa-card__media usa-card__media--inset">
+          <div class="usa-card__img">
+            <img
+              src="/assets/img/headshots-logos/{{ s.img }}"
+              alt="{{ s.name }}"
+            />
+          </div>
+        </div>
+      {% endif %}
+      <div class="usa-card__body">
+        <p style="font-style:italic;">"{{s.text}}"</p>
+      </div>
+      <div class="usa-card__footer">
+        {% if s.href %}    
+          <a href="{{ s.href }}" class="usa-button">Learn more</a>
+        {% endif %}
+      </div>  
+    </div>
+  </li> 
+{% endfor %}  
+</ul>
+
+
+
+<h2 id="technology-companies">Technology Companies</h2>
+<br/>
+<ul class="usa-card-group">
+{% for s in site.data.support.companies %}    
+  <li class="usa-card usa-card--flag usa-card--media-left flex-1 flex-supporters">
+    <div class="usa-card__container">
+      <div class="usa-card__header">
+        <h2 class="usa-card__heading">{{ s.name }}</h2>
+        {% if s.org %}{{s.org}}{% endif %}
+      </div>
+      {% if s.img %}
+        <div class="usa-card__media usa-card__media--inset">
+          <div class="usa-card__img">
+            <img
+              src="/assets/img/headshots-logos/{{ s.img }}"
+              alt="{{ s.name }}"
+            />
+          </div>
+        </div>
+      {% endif %}
+      <div class="usa-card__body">
+        <p style="font-style:italic;">"{{s.text}}"</p>
+      </div>
+      <div class="usa-card__footer">
+        {% if s.href %}    
+          <a href="{{ s.href }}" class="usa-button">Learn more</a>
+        {% endif %}
+      </div>  
+    </div>
+  </li> 
+{% endfor %}  
+</ul>
+

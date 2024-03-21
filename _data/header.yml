@@ -16,7 +16,7 @@ usa_banner: false
 # Defines the type of header.
 # Header types can be 'basic', 'basic-mega', 'extended' or 'extended-mega'.
 # https://designsystem.digital.gov/components/headers/
-type: extended
+type: basic
 
 # Configuration for site header logo
 # If the logo is external add external: true
@@ -33,3 +33,4 @@ primary:
 # this is a key into _data/navigation.yml
 #secondary:
 #  links: secondary
+
