@@ -20,10 +20,9 @@ In a historic year for global elections, the [International Foundation for Elect
 ## The problem
 The management of elections has been complicated by disinformation about voters’ rights and the voting process, improper political advertising, online attacks (on officials, candidates, poll workers and the integrity of the process), calls for violence, cyberattacks on elections infrastructure and trustworthy information outlets, internet throttling, disruptions and shutdowns on election day, and other myriad and rapidly evolving digital threats. While independent election authorities continue to deliver credible elections under difficult conditions, they are increasingly under attack. Yet they often have difficulty knowing how to articulate their needs for support and coordination with the technology sector, and are at a loss for how to establish channels of communication to do so.
 
+## Our response
 These guidelines establish a framework for meaningful, localized engagement and support between election authorities and technology companies. They will help establish clear policies and processes to share information around elections, and ensure voters have access to high-quality information. They will also help improve communications channels between technology companies and election authorities, while reducing barriers to supporting election integrity for smaller and newer companies who aim to be responsible actors around elections.
 
-
-## Our response
 The launch of these guidelines is the first step in a sustained effort to make incremental and practical improvements that support election integrity. We invite technology companies, be they big or small, well established or up-and-coming, to engage. Companies that provide social media platforms, cybersecurity services, telecommunications, advertising, search or AI all have a role to play. We likewise invite civil society organizations and election authorities globally to help implement, shape, and improve the guidelines.
 
 As enshrined in the guidelines themselves, the coming year will serve as a validation and consultation period, after which the guidelines will be refined and expanded.  In a quickly changing electoral and technological world, it's important that we continue to learn and adapt as quickly as possible.
