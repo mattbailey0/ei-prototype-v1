@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Philippines COMELEC formally endorses the guidelines"
-date:   2024-03-20 09:12:36 -0500
+date:   2024-03-21 09:12:36 -0500
 categories: update
 ---
 
