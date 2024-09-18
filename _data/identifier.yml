@@ -14,8 +14,8 @@ masthead:
     shortname: "IFES"
     # Parent agency homepage link
     url:
-      en: https://wwww.ifes.org
-      es: https://wwww.ifes.org
+      en: https://www.ifes.org
+      es: https://www.ifes.org
     # Parent agency logo path [/path/to/logo.svg]
     logo: assets/img/headshots-logos/ifes-logo-square-white.png
   # Other related agency name
